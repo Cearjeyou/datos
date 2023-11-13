@@ -1,0 +1,6 @@
+/**********************
+Author: Carlos Arturo Bermudez Rios
+Date: 16-10-2023
+Objective: Create primary key of TELEPHONE_CALL_HISTORY
+**********************/
+ALTER TABLE APP_CONV_TELEF.TELEPHONE_CALL_HISTORY ADD CONSTRAINT PK_TELEPHONE_CALL_HISTORY PRIMARY KEY (ID_TELEPHONE_CALL_HISTORY);

@@ -1,0 +1,6 @@
+/**********************
+Author: Carlos Arturo Bermudez Rios
+Date: 16-10-2023
+Objective: Create primary key of TELEPHONE_COMPANY_USERS
+**********************/
+ALTER TABLE APP_CONV_TELEF.TELEPHONE_COMPANY_USERS ADD CONSTRAINT PK_TELEPHONE_COMPANY_USERS PRIMARY KEY (ID_TELEPHONE_COMPANY_USER);
